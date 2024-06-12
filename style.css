@@ -139,11 +139,12 @@ background-color: #c59fc0;
 .banner {
 	width:100%;
 }
+.carrosel{
+	display: flex;
+
+}
 .skincare {
-	position: relative;
-	width: 40%;
 	opacity: 0,3;
-	transition: 30ms;
 	box-shadow: 10px 10px 10px 0 #ab69a5;
 }
 
