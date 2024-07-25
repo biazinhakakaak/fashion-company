@@ -4,7 +4,7 @@ body {
 }
 
 header {
-	background: rgba(213, 164, 200, 0.849);
+	background: rose;
 	padding: 1px 0;
 	display: flex;
 }
