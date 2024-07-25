@@ -5,13 +5,20 @@ body {
 
 header {
 	background: rgba(213, 164, 200, 0.849);
-	padding: 20px 0;
+	padding: 1px 0;
+	display: flex;
 }
-
-.menu {
-	position: relative;
-	
+.div-menu{
+	margin-left: 25%;
 }
+.search-input {
+    width: 70%;
+    padding: 8px;
+    font-size: 16px;
+    border: none;
+    border-radius: 3px 0 0 3px;
+    outline: none;
+  }
 
 nav {
 	text-align: center;
@@ -78,6 +85,17 @@ nav a:hover {
 	font-size: 22px;
 	font-weight: bold;
 	margin-top: 10px;
+}
+
+.carrossel{
+	width: 200px;
+	height: 200px;
+	margin: 20px;
+	border-radius: 15%;
+}
+
+.divCarrossel{
+	display: flex;
 }
 
 footer {
