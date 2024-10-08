@@ -1,6 +1,8 @@
 body {
 	font-family: 'Montserrat', sans-serif;
 	background-color: (213, 164, 200, 0.849);
+	margin: 0;
+    padding: 20px;
 }
 
 header {
@@ -206,4 +208,39 @@ background-color: #c59fc0;
 .video {
 	width: 560px;
 	margin: 2em auto;
+}
+
+
+/*CSS Página Produto*/
+
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 colunas */
+    gap: 20px; /* Espaço entre os itens */
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.product {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.product img {
+    max-width: 100%;
+    height: auto;
+}
+
+.product h3 {
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+.product p {
+    margin: 5px 0;
+    color: #666;
 }
