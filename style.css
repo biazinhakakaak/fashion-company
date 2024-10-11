@@ -4,7 +4,10 @@ body {
     padding: 20px;
     background-color: #f0f0f0;
 }
-
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
 .product-grid {
     display: grid;
     grid-template-columns: repeat(4, 1fr); /* 4 colunas */
@@ -34,4 +37,109 @@ body {
 .product p {
     margin: 5px 0;
     color: #666;
+}
+
+h1 {
+    color: rgb(112, 29, 80);
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 15px;
+    background-color: #ff69b4;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ff1493;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    color: #666;
+}
+
+header, footer {
+    text-align: center;
+    background-color: #eaeaea;
+    padding: 10px 0;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.about {
+    max-width: 800px; /* Limita a largura do texto */
+    text-align: justify; /* Justifica o texto */
+}
+
+.logo-container {
+    margin-top: 20px;
+}
+
+.logo {
+    max-width: 60%; /* Torna a logo responsiva */
+    height: auto;
+}
+
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.payment-options {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+}
+
+.payment-method {
+    margin: 10px 0;
+}
+
+.payment-details {
+    margin-top: 20px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #45a049;
 }
