@@ -1,145 +1,189 @@
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 20px;
-    background-color: #f0f0f0;
+	font-family: 'Montserrat', sans-serif;
+	background-color: (213, 164, 200, 0.849);
 }
+
 header {
-    text-align: center;
-    margin-bottom: 20px;
-}
-.product-grid {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr); /* 4 colunas */
-    gap: 20px; /* Espaço entre os itens */
-    max-width: 1200px;
-    margin: 0 auto;
+	background: rgba(213, 164, 200, 0.849);
+	padding: 20px 0;
 }
 
-.product {
-    background-color: #fff;
-    border: 1px solid #ccc;
-    padding: 10px;
-    text-align: center;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+.menu {
+	position: relative;
+	
 }
 
-.product img {
-    max-width: 100%;
-    height: auto;
+nav {
+	text-align: center;
+	top: 60px;
+	right: 10px;
+		
 }
 
-.product h3 {
-    margin: 10px 0;
-    font-size: 18px;
+nav li {
+	display: inline;
+	margin: 0 0 0 15px;
 }
 
-.product p {
-    margin: 5px 0;
-    color: #666;
+nav a {
+	text-transform: uppercase;
+	color: #ffffff;
+	font-weight: bold;
+	font-size: 22px;
+	text-decoration: none;
 }
 
-h1 {
-    color: rgb(112, 29, 80);
+nav a:hover {
+	color: rosybrown;
+	text-decoration: underline;
 }
 
-.form-group {
-    margin-bottom: 15px;
+.produtos {
+	width: 940px;
+	margin: 0 auto;
+	padding: 50px 0;
 }
 
-label {
-    display: block;
-    margin-bottom: 5px;
+.produtos li {
+	display: inline-block;
+	text-align: center;
+	width: 30%;
+	vertical-align: top;
+	margin: 0 1.5%;
+	padding: 30px 20px;
+	box-sizing: border-box;
+	border: 2px solid #000000;
+	border-radius: 10px;
 }
 
-input {
-    width: 100%;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
+.produtos li:hover {
+	border-color:rgba(213, 164, 200, 0.849);
 }
 
-button {
-    padding: 10px 15px;
-    background-color: #ff69b4;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
+
+.produtos li:hover h2 {
+	font-size: 34px;
 }
 
-button:hover {
-    background-color: #ff1493;
+.produtos h2 {
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.produto-descricao {
+	font-size: 18px;
+}
+
+.produto-preco {
+	font-size: 22px;
+	font-weight: bold;
+	margin-top: 10px;
 }
 
 footer {
-    text-align: center;
-    margin-top: 20px;
-    color: #666;
+	text-align: center;
+	background: url("bg.jpg");
+	padding: 40px 0;
 }
 
-header, footer {
-    text-align: center;
-    background-color: #eaeaea;
-    padding: 10px 0;
+.copyright {
+	color: #d1a3c8;
+	font-size: 13px;
+	margin: 20px 0 0;
 }
 
-main {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 20px;
+form {
+	margin: 40px 0;
 }
 
-.about {
-    max-width: 800px; /* Limita a largura do texto */
-    text-align: justify; /* Justifica o texto */
+form label, form legend {
+	display:block;
+	font-size: 20px;
+	margin: 0 0 10px;
 }
 
-.logo-container {
-    margin-top: 20px;
+.input-padrao {
+	display: block;
+	margin: 0 0 20px;
+	padding: 10px 25px;
+	width: 50%;
 }
 
-.logo {
-    max-width: 60%; /* Torna a logo responsiva */
-    height: auto;
+.checkbox {
+	margin: 20px 0;
 }
 
 
-main {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    padding: 20px;
+
+
+table {
+	margin: 20px 0 40px;
 }
 
-.payment-options {
-    background: white;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-    max-width: 400px;
-    width: 100%;
+thead {
+	background: #c895c3;
+	color: rgb(222, 167, 207);
+	font-weight: bold;
 }
 
-.payment-method {
-    margin: 10px 0;
+td, th {
+	border: 1px solid #000000;
+	padding: 8px 15px;
 }
 
-.payment-details {
-    margin-top: 20px;
+
+/* css da página inicial */
+body{
+background-color: #c59fc0;
+}
+.banner {
+	width:100%;
+}
+.carrosel {
+	display: flex;
+		width: 200px;
+		height: 200px;
+		margin: 20px;
+		border-radius: 15%;	
+	border-radius: 15%;
+
 }
 
-button {
-    background-color: #4CAF50;
-    color: white;
-    border: none;
-    padding: 10px 15px;
-    cursor: pointer;
-    border-radius: 5px;
+.skincare:hover {
+	opacity: 0.3;
+}
+.utensilios {
+	width: 12px;
+	float: left;
+	margin: 0 20px 20px 0;
 }
 
-button:hover {
-    background-color: #45a049;
+.titulo-principal {
+	text-align: center;
+	font-size: 2em;
+	margin: 0 0 1em;
+	clear: left;
+}
+
+.principal {
+	padding: 3em 0;
+	background: #c59fc0;
+	width: 940px;
+	margin: 0 auto;
+}
+
+.principal p {
+	margin: 0 0 1em;
+}
+
+.principal strong {
+	font-weight: bold;
+}
+
+.principal em {
+	font-style: italic;
+}
+.video {
+	width: 560px;
+	margin: 2em auto;
 }
